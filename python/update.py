@@ -3,7 +3,7 @@ import schedule
 import time
 def main():
     try:
-        password = 'zaq1@EDC'
+        password = 'your_password'
         r = connect_redis(password=password) 
     except Exception as e:
         print(f"连接到Redis数据库失败: {e}")
